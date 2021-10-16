@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  color: chartreuse;
+}
+
+.AppGUI {
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+#InputBox {
+  width: 90%;
+  height: 20em;
+  resize: none;
+  position: relative;
+  padding: 8px;
+  color: chartreuse;
+  background-color: transparent;
+  border: solid 2px chartreuse;
+  border-radius: 5px;
+}
+
+#ResultsBox {
+  width: 90%;
+  height: 3em;
+  resize: none;
+  position: relative;
+  padding: 8px;
+  color: chartreuse;
+  background-color: transparent;
+  border: solid 2px chartreuse;
+  border-radius: 5px;
+}
+
+#SubmitButton {
+  padding: 5px;
+  border-radius: 5px;
+  color: chartreuse;
+  border-color: chartreuse;
+  background-color: transparent;
+}
+
+#SubmitButton:hover {
+  background-color: darkgreen;
+}
+
+#SubmitButton:disabled {
+  padding: 5px;
+  color: darkgreen;
+  border-color: darkgreen;
+  background-color: transparent;
+}
